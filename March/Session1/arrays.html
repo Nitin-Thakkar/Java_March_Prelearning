@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        function ArrayDemo()
+        {
+            let names = ["Mili","Helly","Amandeep"];
+            console.log(names[1]);
+            console.log(`Before Add :${names}`);
+            names.push("Prachi"); // add the value at the end
+            console.log(`After Add :${names}`);
+
+            console.log(names.pop()+" is deleted Successfully");
+            names.sort();
+            console.log(`After sorting :${names}`);
+
+        }
+    </script>
+
+    <button onclick="ArrayDemo();">click Me</button>
+</body>
+</html>

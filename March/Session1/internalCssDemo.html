@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <!-- Internal CSS -->
+    <style>
+        /* By TagName */
+        h1{
+            background-color: azure;
+        }
+        p{
+            font-size: medium;
+            background-color: brown;
+            color: cadetblue;
+        }
+        /* Using Id */
+        #second
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: black;
+            color: cornsilk;
+            font-size: 12px;
+        }
+        /* By Classname */
+        .odd
+        {
+            background-color:#090561;
+            color: white;
+        }
+        .even
+        {
+            background-color: burlywood;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>THis is heading 1</h1>
+    <h1 id ="second">THis is heading 1</h1>
+    <h1>This is new Header</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reiciendis quas, pariatur perferendis saepe explicabo ab harum adipisci, delectus deserunt cumque, dignissimos aliquid quos sed aperiam alias error. Quis, sequi.</p>
+    <pre id="second">Hi THis is PRE</pre>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Batch</th>
+        </tr>
+        <tr class="odd">
+            <td>Nitin</td>
+            <td>Java</td>
+        </tr>
+        <tr class="even">
+            <td>Shyam</td>
+            <td>Java</td>
+        </tr>
+        <tr class="odd">
+            <td>Muskan</td>
+            <td>Devops</td>
+        </tr>
+        <tr class="even">
+            <td>Subhash</td>
+            <td>Data Analyst</td>
+        </tr>
+    </table>
+</body>
+</html>

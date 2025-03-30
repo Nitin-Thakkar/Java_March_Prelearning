@@ -1,0 +1,27 @@
+ /* By TagName */
+ h1{
+    background-color: azure;
+}
+p{
+    font-size: medium;
+    background-color: brown;
+    color: cadetblue;
+}
+/* Using Id */
+#second
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: cornsilk;
+    font-size: 12px;
+}
+/* By Classname */
+.odd
+{
+    background-color:#090561;
+    color: white;
+}
+.even
+{
+    background-color: burlywood;
+}

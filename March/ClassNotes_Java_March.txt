@@ -1,0 +1,191 @@
+=============================================================================
+						Session 1 : HTML
+						Date: 15th March 2025
+=============================================================================
+
+HTML : Hypertext Markup language.
+
+Why we are using an HTML language.
+To create/ Design the Webpages
+
+- It understands by Browsers
+
+<html>
+	<head></head>
+	<body></body>
+</html>
+
+List :
+1. Order List <ol>
+	- When the Sequence is Important.
+	1. Pizza <li>
+	2. Burger
+	3. Coffee
+2. UnOrder List <ul>
+	- Sequence is not important
+		- Pasta
+		- Panipuri
+		- Tea
+	
+=============================================================================
+						Session 2 : HTML(Forms),CSS
+						Date: 16th March 2025
+=============================================================================
+CSS : Cascading style sheet
+
+Apply CSS in 3 Ways
+
+1. Inline CSS 
+	- When you are apply css on same line as "Style" attribute
+	
+	
+2. Internal CSS
+	- When you write the css in the same file but between <style> as a tag
+	CSS selector :
+		Howmany way we can apply css.
+		
+	1. Using Tag name 
+	2. Using Id:
+	3. Using Class Name
+	
+3. External CSS : Your CSS file is located at some place.
+=============================================================================
+						Session 3 : JavaScript
+						Date: 22nd March 2025
+=============================================================================
+HTML : Define the Content of your Webpages
+CSS : It will specify the layout of your webpages
+JavaScript : Its a program that will handle the behaviour of your webpages.
+
+There are 2 ways to write JavaScript
+1. Internal JavaScript
+	When we write a javascript code inside an HTML file using <script> tag.
+2. External JavaScript
+
+
+8 datatypes in javascript
+
+string => "" or ''
+number
+bigint
+boolean
+undefine
+null
+symbol
+object
+
+String functions 
+
+Array : Array is a colletion of similar datatypes
+
+let no1 = 10;
+let no2 = 20;
+.
+.
+.
+.
+
+let names = ["Mili","Helly"]
+
+
+=============================================================================
+						Session 4 : SQL
+						Date: 23nd March 2025
+=============================================================================
+
+Database : To store the data persistant.
+
+2 Types of Database
+1. Relational Database (RDBMS)
+	- Mysql (
+	- Oracle
+	- PostGres
+	- Sql Server
+2. Non Relational Database (No-SQL)
+	Documents,Json
+	- MongoDb
+	- Cassandra
+	- Hadoop
+	- Redshift
+
+SQL : Structure Query Language.
+
+Database : It a colletion of tables,view,Store Procedures,Functions.
+
+SQL we have different types of Statements
+
+1. DDL : Data Defination Language	
+		
+2. DML : Data Manipulation Language
+3. DQL : Data Query Language
+
+Numeric data with Whole Number : Int
+Store String data : CHAR(50),VARCHAR(50)
+					Helly
+Store number with Fraction : Decimal(10,2) -- 800000.22
+
+=============================================================================
+						Session 5 : Linux
+						Date: 29nd March 2025
+=============================================================================
+
+Linux : Its an open source operting system
+
+2 ways to install Linux on Windows
+
+1. Dual Boot the system
+2. Ubantu application from Microsoft store (Hypervisor)
+
+pwd : present working directory
+ls : display list of file and folders
+clear : clear your console window
+man : manual of any commands attributes (Press Q to come out from manual)
+cd : change directory
+mkdir : create folders
+rmdir : remove folders
+rm : remove file and folders
+history : display the history for all the commands exectuted on system
+vi : It is an editor to create file and write the content
+cat : it is use to read the content of the file
+head : read the few files from the bigging.
+tail : read the content fro bottom.
+cp : copy the content from source to destination (copy - paste)
+	cp <source> <destination>/.
+mv : move file from source to destination (cut-paste)
+wc : word count
+touch : it is use to create empty file.
+whoami : display the user name
+diff : check the difference between two files.
+sort : sort the content of the file.
+ps : process list
+kill : kill any process
+grep : pattern matching
+
+chmod : this is use to change/ modify the permission
+
+read : 4
+write : 2
+execute : 1
+
+User
+Group
+others :
+=============================================================================
+						Session 6 : GIT
+						Date: 30th March 2025
+=============================================================================
+GIT : VERSION CONTROL REPOSITORY
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
